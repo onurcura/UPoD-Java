@@ -16,13 +16,33 @@ public class RecursiveCalculatePrice {
     }
 
     static double fiyatHesapla(int n) {
-        int n1 = 25, n2 = 12;
-        if (n >= n1) {
-            return (n / n1) + fiyatHesapla(n % n1);
-        } else if (n >= n2) {
-            return (0.5 * (n / n2)) + fiyatHesapla(n % n2);
+
+        if (n >= 25) {
+            return (n / 25) + fiyatHesapla(n % 25);
+        } else if (n >= 12) {
+            return (0.5 * (n / 12)) + fiyatHesapla(n % 12);
         } else {
             return 0.05 * n;
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
