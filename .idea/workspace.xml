@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4967ebf5-cb87-48f9-a13f-6c26e343a88f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UPoD Java.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homeworks/AverageCalculation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homeworks/CalculatePrice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homeworks/StringWithStars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homeworks/deneme.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homeworks/deneme1.java" afterDir="false" />
+    <list default="true" id="4967ebf5-cb87-48f9-a13f-6c26e343a88f" name="Changes" comment="First commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homeworks/CalculatePrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homeworks/CalculatePrice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homeworks/RecursiveCalculatePrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homeworks/RecursiveCalculatePrice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homeworks/StringWithStars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homeworks/StringWithStars.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +53,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CalculatePrice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Homeworks.CalculatePrice" />
+      <module name="UPoD Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Homeworks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecursiveCalculatePrice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Homeworks.RecursiveCalculatePrice" />
+      <module name="UPoD Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Homeworks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StringWithStars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Homeworks.StringWithStars" />
       <module name="UPoD Java" />
@@ -87,25 +105,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="deneme1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homeworks.deneme1" />
-      <module name="UPoD Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Homeworks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.StringWithStars" />
-        <item itemvalue="Application.deneme1" />
+        <item itemvalue="Application.RecursiveCalculatePrice" />
         <item itemvalue="Application.CalculatePrice" />
         <item itemvalue="Application.deneme" />
+        <item itemvalue="Application.CalculatePrice" />
       </list>
     </recent_temporary>
   </component>
@@ -118,6 +124,14 @@
       <option name="presentableId" value="Default" />
       <updated>1687031660934</updated>
     </task>
+    <task id="LOCAL-00001" summary="First commit">
+      <created>1687081973205</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1687081973206</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -130,5 +144,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
   </component>
 </project>
