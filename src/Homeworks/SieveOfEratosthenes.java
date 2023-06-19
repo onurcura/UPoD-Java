@@ -15,12 +15,12 @@ public class SieveOfEratosthenes {
         }
 
         //Sırasıyla n2>num olana kadar 2 ve katları, 3 ve katları diye devam eden indexleri 0 atadım.
-        //Bunu yaparken daha önce 0 a atadıysam atlaması için if ile kontrol ettim.
+        //Bunu yaparken daha önce 0 a atadıysam atlaması için if ile kontrol ettim.Örnek olarak ilk adımda tüm çaft sayılar 0 oldu.
         int i = 0;
         while (a[i] * a[i] <= num) {
             int n = 1;
             if (a[i] != 0) {
-                while (i + a[i] * n <= a.length) {
+                while (i + a[i] * n < a.length) {
                     a[i + a[i] * n] = 0;
                     n++;
                 }
