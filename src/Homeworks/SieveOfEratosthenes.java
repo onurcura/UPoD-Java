@@ -20,7 +20,7 @@ public class SieveOfEratosthenes {
         while(a[i]*a[i]<=num){
             int n =1;
             if (a[i]!=0){
-                while(i+a[i]*n <a.length){
+                while(i+a[i]*n <=a.length){
                     a[i+a[i]*n]=0;
                     n++;
                 }
@@ -28,7 +28,7 @@ public class SieveOfEratosthenes {
             i++;
         }
 
-        //Arrayimde 0'a eşit olayan indexleri yazdırdım.
+        //Arrayimde 0'a eşit olmayan indexleri yazdırdım.
         System.out.print(num + " a kadar olan asal sayılar : ");
         for (int k = 0 ; k<num-1;k++){
             if (a[k]!=0){
