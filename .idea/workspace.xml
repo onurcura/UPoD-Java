@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4967ebf5-cb87-48f9-a13f-6c26e343a88f" name="Changes" comment="First commit">
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/CalculateSpecialNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/Deneme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/Deneme12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/FibonacciSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/PrimeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/asdl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Homeworks/SieveOfEratosthenes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homeworks/SieveOfEratosthenes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homeworks/StringWithStars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homeworks/StringWithStars.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,12 +41,13 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/lenovo/IdeaProjects/UPoD Java&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/lenovo/IdeaProjects/UPoD Java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SieveOfEratosthenes">
-    <configuration name="CalculatePrice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homeworks.CalculatePrice" />
+  <component name="RunManager" selected="Application.CalculateSpecialNumbers">
+    <configuration name="CalculateSpecialNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Homeworks.CalculateSpecialNumbers" />
       <module name="UPoD Java" />
       <extension name="coverage">
         <pattern>
@@ -51,8 +59,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatePrice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homeworks.CalculatePrice" />
+    <configuration name="Deneme12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Homeworks.Deneme12" />
       <module name="UPoD Java" />
       <extension name="coverage">
         <pattern>
@@ -64,8 +72,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecursiveCalculatePrice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homeworks.RecursiveCalculatePrice" />
+    <configuration name="FibonacciSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Homeworks.FibonacciSequence" />
       <module name="UPoD Java" />
       <extension name="coverage">
         <pattern>
@@ -77,8 +85,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SieveOfEratosthenes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homeworks.SieveOfEratosthenes" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Homeworks.Main" />
       <module name="UPoD Java" />
       <extension name="coverage">
         <pattern>
@@ -90,21 +98,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringWithStars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homeworks.StringWithStars" />
-      <module name="UPoD Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Homeworks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="deneme" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homeworks.deneme" />
+    <configuration name="asdl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Homeworks.asdl" />
       <module name="UPoD Java" />
       <extension name="coverage">
         <pattern>
@@ -118,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SieveOfEratosthenes" />
-        <item itemvalue="Application.StringWithStars" />
-        <item itemvalue="Application.RecursiveCalculatePrice" />
-        <item itemvalue="Application.CalculatePrice" />
-        <item itemvalue="Application.deneme" />
+        <item itemvalue="Application.CalculateSpecialNumbers" />
+        <item itemvalue="Application.Deneme12" />
+        <item itemvalue="Application.asdl" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.FibonacciSequence" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687174633707</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="First commit">
+      <created>1687175668975</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1687175668976</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -194,5 +196,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
     <option name="LAST_COMMIT_MESSAGE" value="First commit" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
